@@ -5,7 +5,7 @@
 # Maintainer : Guillaume Benoit <guillaume@manjaro.org>
 
 pkgname=manjaro-keyring
-pkgver=20201029
+pkgver=20201030
 pkgrel=1
 pkgdesc='Manjaro PGP keyring'
 arch=('any')
@@ -17,7 +17,7 @@ source=('Makefile'
         'manjaro-revoked'
         'manjaro-trusted')
 sha256sums=('ac8fed4c8dbb910bb4fb3c01cb63de00d6b25ac79734ea5c933706aff6f9c950'
-            '114f7a9a4005daa2accc1dbc26a2960631c5efd9a8733357cdaa03077f843d4d'
+            '6bdead2a8d69c4124d4190580852813496634ffe8aa1b8ef9572fa9b7e4bf31e'
             'ce3dce1721eb380d2ba6c5c668c7e466d391eff7ee1285f88b90e01023324b72'
             '61000f9c38b4dee17fdb1bfedad55076d5f511ff0228ed5ed135e9b5e170fd0f')
 
