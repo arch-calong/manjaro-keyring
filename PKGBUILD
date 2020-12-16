@@ -5,7 +5,7 @@
 # Maintainer : Guillaume Benoit <guillaume@manjaro.org>
 
 pkgname=manjaro-keyring
-pkgver=20201030
+pkgver=20201216
 pkgrel=1
 pkgdesc='Manjaro PGP keyring'
 arch=('any')
