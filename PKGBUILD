@@ -7,7 +7,7 @@
 
 pkgname=manjaro-keyring
 pkgver=20210807
-pkgrel=1
+pkgrel=2
 pkgdesc='Manjaro PGP keyring'
 arch=('any')
 url='http://manjaro.org'
@@ -20,7 +20,7 @@ source=('Makefile'
 sha256sums=('ac8fed4c8dbb910bb4fb3c01cb63de00d6b25ac79734ea5c933706aff6f9c950'
             'd8ac641f18cf7ab8f711d4b0d7595966c15ceeb895598429f88e981d44cee513'
             '657a7e1722d5ab9f08954cb4198a5dfd290ff38547a5b8682256343059ed78b9'
-            'ac3ede4ac584825e1d6ffb2fd81b189876417353b335ac2151675a9bf8b29918')
+            '1f86aa8270d60a4deecbf6885964967ed378adb2abb0941addfeaf2a1025c811')
 
 package() {
   cd "${srcdir}"
