@@ -6,7 +6,7 @@
 
 pkgname=manjaro-keyring
 pkgver=20220504
-pkgrel=1
+pkgrel=2
 pkgdesc='Manjaro PGP keyring'
 arch=('any')
 url='http://manjaro.org'
@@ -17,9 +17,9 @@ source=('Makefile'
         'manjaro-revoked'
         'manjaro-trusted')
 sha256sums=('ac8fed4c8dbb910bb4fb3c01cb63de00d6b25ac79734ea5c933706aff6f9c950'
-            '6481e226c71a8aa01704b852bb25d0511e885fc79934711e985b5539c98957ef'
-            'ccb27fe94429fedef0be2975e80979aca756814826eb5a50a39182d27945c17d'
-            'cf7d84e8d6c9b2b77b927d48c154653d8cc82f44c7ed5f7b67dde318baa4cfba')
+            'bbd5b4bca4f4d4adc472db86a332aff1edc551f533d37549ed4cfd82c5d7db78'
+            '82bb7c02196377b83d672b1c6912ca16e44707280d200873ef4b43164c0b2696'
+            'ed1f0150f182249474a6bc4f83d9bc0486d8ccb4d1873a21a7277c997e46e9ca')
 
 package() {
   cd "${srcdir}"
