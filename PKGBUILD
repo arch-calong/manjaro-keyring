@@ -18,8 +18,8 @@ source=('Makefile'
         'manjaro-trusted')
 sha256sums=('ac8fed4c8dbb910bb4fb3c01cb63de00d6b25ac79734ea5c933706aff6f9c950'
             'bbd5b4bca4f4d4adc472db86a332aff1edc551f533d37549ed4cfd82c5d7db78'
-            'cd1b67ed62f6bfc8e3b09d27b42195b68de4d797709038531dda57724e6110ff'
-            'ed1f0150f182249474a6bc4f83d9bc0486d8ccb4d1873a21a7277c997e46e9ca')
+            'd7b50666d3c3e85c9a999c9c705d0de9476c0f19cb3c215a1cd51a678793bd4d'
+            '6d01537d76287c874019ce2395631e818f302ca64917b9e825c54aec48e9f63b')
 
 package() {
   cd "${srcdir}"
