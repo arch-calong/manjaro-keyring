@@ -17,7 +17,7 @@ source=('Makefile'
         'manjaro-revoked'
         'manjaro-trusted')
 sha256sums=('ac8fed4c8dbb910bb4fb3c01cb63de00d6b25ac79734ea5c933706aff6f9c950'
-            'c71e8acffe99d34ef65be851a0ac9719fdb4e2435b49c84a3b774157e35cc5e5'
+            'e8f4bb546131a9306f7ff49d1ce3591a8de54f3106e83c0b616570febd590606'
             '3e909acd91874ea0b0dc7655f8ab549a2ea4cbae5ab6a19b08f71a654a728932'
             '6d01537d76287c874019ce2395631e818f302ca64917b9e825c54aec48e9f63b')
 
