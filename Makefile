@@ -1,6 +1,12 @@
-V=20120504
+V=20220514
 
 PREFIX = /usr/local
+TRUSTED= $(cat manjaro-trusted | cut -d: -f1)
+REVOKED= $(cat manjaro-revoked)
+
+update:
+	gpg --recv-keys $(TRUSTED) $(REVOKED)
+	gpg --export --armor $(TRUSTED) $(REVOKED) > manjaro.gpg
 
 install:
 	install -dm755 $(DESTDIR)$(PREFIX)/share/pacman/keyrings/

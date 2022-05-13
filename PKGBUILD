@@ -16,8 +16,8 @@ source=('Makefile'
         'manjaro.gpg'
         'manjaro-revoked'
         'manjaro-trusted')
-sha256sums=('ac8fed4c8dbb910bb4fb3c01cb63de00d6b25ac79734ea5c933706aff6f9c950'
-            'e8f4bb546131a9306f7ff49d1ce3591a8de54f3106e83c0b616570febd590606'
+sha256sums=('fa9999a91c9e6b701961d332b434737a95cb51d90febf9b7534e97235a6c0249'
+            '8161b0dc48cec5a3ace27805e7f5ae5959fc743c43d08c086b8c8917914ea5b7'
             '3e909acd91874ea0b0dc7655f8ab549a2ea4cbae5ab6a19b08f71a654a728932'
             '6d01537d76287c874019ce2395631e818f302ca64917b9e825c54aec48e9f63b')
 
