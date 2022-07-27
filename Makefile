@@ -1,6 +1,6 @@
 V=20220514
 
-PREFIX = /usr/local
+PREFIX = /usr
 TRUSTED= $(cat manjaro-trusted | cut -d: -f1)
 REVOKED= $(cat manjaro-revoked)
 
