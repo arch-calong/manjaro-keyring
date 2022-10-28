@@ -6,7 +6,7 @@
 
 pkgname=manjaro-keyring
 pkgver=20221028
-pkgrel=3
+pkgrel=4
 pkgdesc="Manjaro PGP keyring"
 arch=('any')
 url="https://manjaro.org"

@@ -22,6 +22,10 @@ pre_upgrade() {
 		pacman-key -d 5A97ED6B72418199F0C22B23137C934B5DCB998E
 		pacman-key -d 7C89F4D439B2BFACF425107B62443D89B35859F8
 	fi
+	if [[ "$(vercmp $2 20221028-4)" -lt 0 ]]; then
+		msg "Delete expired Build-Server Key"
+		pacman-key -d 3B794DE6D4320FCE594F4171279E7CF5D8D56EC8
+	fi
 }
 
 post_upgrade() {
