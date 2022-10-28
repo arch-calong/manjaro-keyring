@@ -5,24 +5,23 @@
 # Pierre Schmitz <pierre@archlinux.de>
 
 pkgname=manjaro-keyring
-pkgver=20221019
+pkgver=20221028
 pkgrel=1
-pkgdesc="Manjaro PGP keyring"
+pkgdesc='Manjaro PGP keyring'
 arch=('any')
-url="https://manjaro.org"
+url='http://manjaro.org'
 license=('GPL')
-groups=('base-devel')
-depends=('pacman')
 install="${pkgname}.install"
 source=('Makefile'
         'manjaro.gpg'
         'manjaro-revoked'
         'manjaro-trusted')
-sha256sums=('c5a0ede3f665150f2d53a4e4c4b6f82abd108a2a6ff11b406a64d5b8bc6583dd'
-            '31d7e0f8c1741fa4f8d7cc7873539199c568d73e539483844b363ea539f90a42'
+sha256sums=('fa9999a91c9e6b701961d332b434737a95cb51d90febf9b7534e97235a6c0249'
+            '27ca19d5fc7d117d69496a3e755564f3082e8e236ab2df11278141c4dc5d1c4c'
             '3e909acd91874ea0b0dc7655f8ab549a2ea4cbae5ab6a19b08f71a654a728932'
-            'ff6f35edd535703cd8e62adfb4b03e79005a04230da76d7ea8c394bb74bce4c6')
+            '6d01537d76287c874019ce2395631e818f302ca64917b9e825c54aec48e9f63b')
 
 package() {
-  make DESTDIR="${pkgdir}" install
+  cd "${srcdir}"
+  make PREFIX=/usr DESTDIR=${pkgdir} install
 }
