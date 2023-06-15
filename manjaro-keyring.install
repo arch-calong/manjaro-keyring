@@ -26,6 +26,10 @@ pre_upgrade() {
 		msg "Delete expired Build-Server Key"
 		pacman-key -d 3B794DE6D4320FCE594F4171279E7CF5D8D56EC8
 	fi
+	if [[ "$(vercmp $2 20230615-1)" -lt 0 ]]; then
+		msg "Delete expired Key by Jonas Strassel"
+		pacman-key -d A44C644D792767CED7941AFEABB2075D5F310CF8
+	fi
 }
 
 post_upgrade() {
