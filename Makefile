@@ -1,8 +1,8 @@
-V=20220514
+V=20230719
 
 PREFIX = /usr
-TRUSTED= $(cat manjaro-trusted | cut -d: -f1)
-REVOKED= $(cat manjaro-revoked)
+TRUSTED= $(shell cat manjaro-trusted | cut -d: -f1)
+REVOKED= $(shell cat manjaro-revoked)
 
 update:
 	gpg --recv-keys $(TRUSTED) $(REVOKED)

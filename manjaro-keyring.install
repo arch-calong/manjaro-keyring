@@ -30,6 +30,10 @@ pre_upgrade() {
 		msg "Delete expired Key by Jonas Strassel"
 		pacman-key -d A44C644D792767CED7941AFEABB2075D5F310CF8
 	fi
+	if [[ "$(vercmp $2 20230919-1)" -lt 0 ]]; then
+		msg "Delete expired Key by Jonas Strassel"
+		pacman-key -d A44C644D792767CED7941AFEABB2075D5F310CF8
+	fi
 }
 
 post_upgrade() {
